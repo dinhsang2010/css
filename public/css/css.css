@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+.nav_link{
+    padding-top: 10px;
+}
+.nav_link a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 40px 0 15px;
+}
+
+.product_list {
+    float: left;
+    width: 100%;
+}
+
+.intro_left, .intro_right, .intro_small{
+    float: left;
+    width: 50%;
+}
+.intro_item img{
+    width: 100%;
+    display: block;
+}
+.intro_item{
+    padding:0 15px 20px;
+}
